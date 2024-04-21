@@ -72,7 +72,7 @@ void infixToPostFix(char s[]){
 // main function 
 
 int main(){
-    char expression[]= "a+b-/c*d-m";
+    char expression[]= "a+b-/c+d-m";
     infixToPostFix(expression); // fucntion call 
     return 0;
 }
